@@ -16,7 +16,7 @@
     header{position:sticky;top:0;z-index:20;background:rgba(60,42,24,.98);backdrop-filter:blur(7px);color:#fff;border-bottom:1px solid rgba(255,255,255,.08)}
     .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:10px 0}
     .brand{display:flex;align-items:center;gap:14px;font-weight:800;letter-spacing:1px}
-    .brand img{width:58px;height:58px;object-fit:contain;background:#fbf1df;border-radius:4px}
+    .brand img{width:124px;height:124px;object-fit:contain;background:transparent;border-radius:0}
     .brand span{font-size:14px;line-height:1.1}
     .links{display:flex;align-items:center;gap:26px;font-size:12px;font-weight:800;letter-spacing:1.1px}
     .btn{display:inline-block;background:var(--gold);color:#3d2b18;border:0;padding:16px 24px;font:800 12px Arial;letter-spacing:1px;cursor:pointer}
@@ -76,15 +76,14 @@
     .panel input,.panel select,.panel textarea{width:100%;padding:13px;border:1px solid #d0bda2;background:#fff;font:15px Arial}
     .panel textarea{height:96px;resize:vertical}.panel .btn{width:100%;margin-top:20px}.formnote{font-size:12px;color:#666;line-height:1.6}
     @media(max-width:1000px){.cards{grid-template-columns:1fr 1fr}.split,.quote-grid{grid-template-columns:1fr}.list{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.gallery .big{grid-column:span 2}.proof{grid-template-columns:1fr 1fr 1fr}}
-    @media(max-width:760px){.links a:not(.btn){display:none}.brand span{font-size:12px}.hero{min-height:690px;background-position:60% center}.hero p{font-size:17px}.hero-actions{flex-direction:column;align-items:flex-start}.proof{grid-template-columns:1fr}.cards,.stack,.gallery{grid-template-columns:1fr}.gallery .big{grid-column:auto;grid-row:auto}.card img{height:230px}.sticky{display:block;position:fixed;left:0;right:0;bottom:0;background:#48351e;padding:10px;z-index:21}.sticky .btn{display:block;text-align:center}.panel{padding:28px 22px}footer{padding-bottom:90px}footer .wrap{flex-direction:column;align-items:flex-start}}
-      .original-logo{width:58px;height:58px;object-fit:contain;background:#fef5e4;border-radius:4px}\n  </style>
+    @media(max-width:760px){.brand img,.original-logo{width:94px;height:94px}.nav{padding:4px 0}.links a:not(.btn){display:none}.brand span{font-size:12px}.hero{min-height:690px;background-position:60% center}.hero p{font-size:17px}.hero-actions{flex-direction:column;align-items:flex-start}.proof{grid-template-columns:1fr}.cards,.stack,.gallery{grid-template-columns:1fr}.gallery .big{grid-column:auto;grid-row:auto}.card img{height:230px}.sticky{display:block;position:fixed;left:0;right:0;bottom:0;background:#48351e;padding:10px;z-index:21}.sticky .btn{display:block;text-align:center}.panel{padding:28px 22px}footer{padding-bottom:90px}footer .wrap{flex-direction:column;align-items:flex-start}}
+      .original-logo{width:124px;height:124px;object-fit:contain;background:transparent;border-radius:0;filter:grayscale(1) invert(1) contrast(3);mix-blend-mode:screen}\n  </style>
 </head>
 <body>
   <header>
     <div class="wrap nav">
       <a class="brand" href="#top" aria-label="Glengarry Outfitters home">
         <img class="original-logo" src="images/logo.png" alt="Glengarry Outfitters original duck and shield logo" width="58" height="58">
-        <span>GLENGARRY<br>OUTFITTERS</span>
       </a>
       <nav class="links">
         <a href="#hunts">HUNTS</a>
